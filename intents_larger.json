@@ -1,0 +1,179 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day",
+                "What's up?",
+                "Yo!",
+                "Hi!",
+                "Hey there!",
+                "Howdy"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?",
+                "Hey! How's it going?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time",
+                "See ya!",
+                "Catch you later!",
+                "I'm out",
+                "Later!",
+                "Take care"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day!",
+                "Bye! Come back again soon.",
+                "Take care!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "I appreciate it",
+                "Many thanks",
+                "Much appreciated",
+                "Grateful for your help"
+            ],
+            "responses": [
+                "My pleasure!",
+                "You're welcome!",
+                "Happy to help!",
+                "No problem!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "query",
+            "patterns": [
+                "What is Simplilearn?",
+                "Tell me about Simplilearn",
+                "Explain Simplilearn",
+                "Simplilearn details"
+            ],
+            "responses": [
+                "Simplilearn is a popular online Bootcamp & e-learning platform offering courses in various fields."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like?",
+                "How's the weather today?",
+                "Will it rain today?",
+                "Is it sunny outside?"
+            ],
+            "responses": [
+                "I can't check the weather, but you can use a weather app!",
+                "Check your weather app for details.",
+                "I hope it's sunny where you are!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Make me laugh",
+                "Say something funny",
+                "Give me a joke"
+            ],
+            "responses": [
+                "Why don't skeletons fight each other? Because they don't have the guts!",
+                "Why did the scarecrow win an award? Because he was outstanding in his field!",
+                "I told my wife she should embrace her mistakes. She gave me a hug."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "ai_info",
+            "patterns": [
+                "What is AI?",
+                "Tell me about artificial intelligence",
+                "What does AI do?",
+                "Explain AI"
+            ],
+            "responses": [
+                "Artificial Intelligence (AI) is the simulation of human intelligence in machines.",
+                "AI allows computers to learn from data, recognize patterns, and make decisions.",
+                "AI is used in various fields, from chatbots to self-driving cars!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "I need help",
+                "Can you help me?",
+                "I have a question",
+                "Assist me please",
+                "Help me out"
+            ],
+            "responses": [
+                "Of course! How can I assist you?",
+                "I'm here to help! What do you need?",
+                "Ask me anything, and I'll try my best to help."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "food_recommendations",
+            "patterns": [
+                "What should I eat?",
+                "Suggest me some food",
+                "I'm hungry",
+                "Give me a food recommendation"
+            ],
+            "responses": [
+                "How about trying some pizza?",
+                "A burger sounds great!",
+                "You could go for some pasta!",
+                "Maybe a fresh salad would be nice."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
